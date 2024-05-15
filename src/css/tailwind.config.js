@@ -18,8 +18,41 @@ module.exports = {
         blue: '2px solid rgba(0, 112, 244, 0.5)',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-      },
+        'body': [
+      'Inter', 
+      'ui-sans-serif', 
+      'system-ui', 
+      '-apple-system', 
+      'system-ui', 
+      'Segoe UI', 
+      'Roboto', 
+      'Helvetica Neue', 
+      'Arial', 
+      'Noto Sans', 
+      'sans-serif', 
+      'Apple Color Emoji', 
+      'Segoe UI Emoji', 
+      'Segoe UI Symbol', 
+      'Noto Color Emoji'
+    ],
+        'sans': [
+      'Inter', 
+      'ui-sans-serif', 
+      'system-ui', 
+      '-apple-system', 
+      'system-ui', 
+      'Segoe UI', 
+      'Roboto', 
+      'Helvetica Neue', 
+      'Arial', 
+      'Noto Sans', 
+      'sans-serif', 
+      'Apple Color Emoji', 
+      'Segoe UI Emoji', 
+      'Segoe UI Symbol', 
+      'Noto Color Emoji'
+    ]
+  },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1.5' }],
         sm: ['0.875rem', { lineHeight: '1.5715' }],
